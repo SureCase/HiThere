@@ -10,4 +10,8 @@
 
 @interface SCViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UIButton *btnSwitch;
+
+- (IBAction)toggleBeaconMonitoring:(id)sender;
+
 @end

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3DA42DBD32554F6A8AC0B981 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 97D903B62E7A43B28A2F6F93 /* libPods.a */; };
+		995F777918EDF3DE00C45468 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 995F777818EDF3DE00C45468 /* Media.xcassets */; };
 		99D296C718EDEC5800617E50 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99D296C618EDEC5800617E50 /* Foundation.framework */; };
 		99D296C918EDEC5800617E50 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99D296C818EDEC5800617E50 /* CoreGraphics.framework */; };
 		99D296CB18EDEC5800617E50 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99D296CA18EDEC5800617E50 /* UIKit.framework */; };
@@ -15,7 +17,6 @@
 		99D296D718EDEC5900617E50 /* SCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 99D296D618EDEC5900617E50 /* SCAppDelegate.m */; };
 		99D296DA18EDEC5900617E50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99D296D818EDEC5900617E50 /* Main.storyboard */; };
 		99D296DD18EDEC5900617E50 /* SCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99D296DC18EDEC5900617E50 /* SCViewController.m */; };
-		99D296DF18EDEC5900617E50 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99D296DE18EDEC5900617E50 /* Images.xcassets */; };
 		99D296E618EDEC5900617E50 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99D296E518EDEC5900617E50 /* XCTest.framework */; };
 		99D296E718EDEC5900617E50 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99D296C618EDEC5800617E50 /* Foundation.framework */; };
 		99D296E818EDEC5900617E50 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99D296CA18EDEC5800617E50 /* UIKit.framework */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		97D903B62E7A43B28A2F6F93 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		995F777818EDF3DE00C45468 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		99D296C318EDEC5800617E50 /* HiThere.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HiThere.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99D296C618EDEC5800617E50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		99D296C818EDEC5800617E50 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -47,12 +50,12 @@
 		99D296D918EDEC5900617E50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		99D296DB18EDEC5900617E50 /* SCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCViewController.h; sourceTree = "<group>"; };
 		99D296DC18EDEC5900617E50 /* SCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCViewController.m; sourceTree = "<group>"; };
-		99D296DE18EDEC5900617E50 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		99D296E418EDEC5900617E50 /* HiThereTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HiThereTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		99D296E518EDEC5900617E50 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		99D296ED18EDEC5900617E50 /* HiThereTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HiThereTests-Info.plist"; sourceTree = "<group>"; };
 		99D296EF18EDEC5900617E50 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		99D296F118EDEC5900617E50 /* HiThereTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HiThereTests.m; sourceTree = "<group>"; };
+		CA5066D42E44449B8F363049 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,7 @@
 				99D296C918EDEC5800617E50 /* CoreGraphics.framework in Frameworks */,
 				99D296CB18EDEC5800617E50 /* UIKit.framework in Frameworks */,
 				99D296C718EDEC5800617E50 /* Foundation.framework in Frameworks */,
+				3DA42DBD32554F6A8AC0B981 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +90,7 @@
 				99D296EB18EDEC5900617E50 /* HiThereTests */,
 				99D296C518EDEC5800617E50 /* Frameworks */,
 				99D296C418EDEC5800617E50 /* Products */,
+				CA5066D42E44449B8F363049 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +110,7 @@
 				99D296C818EDEC5800617E50 /* CoreGraphics.framework */,
 				99D296CA18EDEC5800617E50 /* UIKit.framework */,
 				99D296E518EDEC5900617E50 /* XCTest.framework */,
+				97D903B62E7A43B28A2F6F93 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -117,8 +123,8 @@
 				99D296D818EDEC5900617E50 /* Main.storyboard */,
 				99D296DB18EDEC5900617E50 /* SCViewController.h */,
 				99D296DC18EDEC5900617E50 /* SCViewController.m */,
-				99D296DE18EDEC5900617E50 /* Images.xcassets */,
 				99D296CD18EDEC5800617E50 /* Supporting Files */,
+				995F777818EDF3DE00C45468 /* Media.xcassets */,
 			);
 			path = HiThere;
 			sourceTree = "<group>";
@@ -159,9 +165,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 99D296F518EDEC5900617E50 /* Build configuration list for PBXNativeTarget "HiThere" */;
 			buildPhases = (
+				0E22B75D89AA4FDEA1EEDB7F /* Check Pods Manifest.lock */,
 				99D296BF18EDEC5800617E50 /* Sources */,
 				99D296C018EDEC5800617E50 /* Frameworks */,
 				99D296C118EDEC5800617E50 /* Resources */,
+				B135CF5094A14BF9A41922F9 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -200,6 +208,13 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Sure Case";
 				TargetAttributes = {
+					99D296C218EDEC5800617E50 = {
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+						};
+					};
 					99D296E318EDEC5900617E50 = {
 						TestTargetID = 99D296C218EDEC5800617E50;
 					};
@@ -229,8 +244,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				99D296DF18EDEC5900617E50 /* Images.xcassets in Resources */,
 				99D296D118EDEC5900617E50 /* InfoPlist.strings in Resources */,
+				995F777918EDF3DE00C45468 /* Media.xcassets in Resources */,
 				99D296DA18EDEC5900617E50 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -244,6 +259,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E22B75D89AA4FDEA1EEDB7F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B135CF5094A14BF9A41922F9 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		99D296BF18EDEC5800617E50 /* Sources */ = {
@@ -374,6 +422,7 @@
 		};
 		99D296F618EDEC5900617E50 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA5066D42E44449B8F363049 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -381,12 +430,14 @@
 				GCC_PREFIX_HEADER = "HiThere/HiThere-Prefix.pch";
 				INFOPLIST_FILE = "HiThere/HiThere-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
 		99D296F718EDEC5900617E50 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA5066D42E44449B8F363049 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -394,6 +445,7 @@
 				GCC_PREFIX_HEADER = "HiThere/HiThere-Prefix.pch";
 				INFOPLIST_FILE = "HiThere/HiThere-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -457,6 +509,7 @@
 				99D296F718EDEC5900617E50 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		99D296F818EDEC5900617E50 /* Build configuration list for PBXNativeTarget "HiThereTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +518,7 @@
 				99D296FA18EDEC5900617E50 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
